@@ -166,7 +166,6 @@ export async function UpdateSalon(salonDetails: SalonData, id:number|undefined) 
   }
 }
 export async function updateSalonAddress(salonDetails:SalonData){
-  console.log(SalonData)
   const graphqlQuerry:string = `
     mutation{
       updateAddress(
